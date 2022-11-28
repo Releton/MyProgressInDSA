@@ -18,7 +18,7 @@ public class Permutation {
         return true;
     }
     public static boolean containsPermutation(String s1, String s2){
-         int[] count = new int[26];//Store the count of characters in substring
+        int[] count = new int[26];//Store the count of characters in substring
         Arrays.fill(count,0);
         for (int i = 0; i < s1.length(); i++) {//store count
             int ind = s1.charAt(i) - 'a';
