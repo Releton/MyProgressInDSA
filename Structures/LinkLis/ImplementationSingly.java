@@ -25,5 +25,8 @@ public class ImplementationSingly {
         System.out.println("The value at index 1 is "+list.findByIndex(1));
         list.insertlast(11);
         list.display();
+        System.out.println();
+        list.insertRec(69,1);
+        list.display();
     }
 }
